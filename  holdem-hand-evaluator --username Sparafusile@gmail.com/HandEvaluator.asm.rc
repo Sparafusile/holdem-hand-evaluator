@@ -1,0 +1,23 @@
+#define IDB_TABLE 1001
+#define IDB_SMALL 1002
+#define IDB_LARGE 1003
+#define IDI_ICON  1004
+
+IDB_TABLE         BITMAP "CPTable.bmp"
+IDB_SMALL         BITMAP "CPCards_Small.bmp"
+IDB_LARGE         BITMAP "CPCards_Large.bmp"
+IDI_ICON          ICON   "icon.ico"
+
+ContextMenu MENU 
+{ 
+  MENUITEM "Refresh",1005 
+  MENUITEM SEPARATOR 
+  MENUITEM "Exit",1006 
+
+  POPUP "&File" 
+  { 
+    MENUITEM "&Refresh",1007 
+    MENUITEM SEPARATOR 
+    MENUITEM "E&xit",1008 
+  }
+}
