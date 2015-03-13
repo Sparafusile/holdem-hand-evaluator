@@ -1,0 +1,1 @@
+Allows up to 5 players. Choose their hands and, optionally, pick the cards for the flop or the turn. Click on "Calculate Odds" and it will tell you the odds of each player winning the hand. Designed around an attractive click interface, the program is easy to learn and use.
